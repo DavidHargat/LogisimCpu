@@ -141,8 +141,8 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(130,350)" to="(280,350)"/>
     <wire from="(340,290)" to="(660,290)"/>
     <wire from="(130,270)" to="(310,270)"/>
-    <wire from="(660,120)" to="(660,290)"/>
     <wire from="(340,270)" to="(600,270)"/>
+    <wire from="(660,120)" to="(660,290)"/>
     <wire from="(210,70)" to="(210,190)"/>
     <wire from="(140,250)" to="(140,260)"/>
     <wire from="(630,120)" to="(630,280)"/>
@@ -231,6 +231,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <comp lib="0" loc="(130,110)" name="Pin">
       <a name="tristate" val="false"/>
     </comp>
+    <comp loc="(550,390)" name="8 bit RAM (4 word)"/>
     <comp lib="5" loc="(570,120)" name="LED">
       <a name="facing" val="south"/>
     </comp>
@@ -1570,8 +1571,8 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(360,210)" to="(360,230)"/>
     <wire from="(260,200)" to="(260,220)"/>
     <wire from="(300,220)" to="(300,260)"/>
-    <wire from="(300,260)" to="(360,260)"/>
     <wire from="(360,230)" to="(360,250)"/>
+    <wire from="(300,260)" to="(360,260)"/>
     <wire from="(300,220)" to="(320,220)"/>
     <wire from="(180,210)" to="(210,210)"/>
     <wire from="(240,220)" to="(260,220)"/>
@@ -1579,10 +1580,10 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(410,230)" to="(430,230)"/>
     <wire from="(360,260)" to="(360,290)"/>
     <wire from="(240,300)" to="(240,320)"/>
+    <wire from="(310,250)" to="(310,280)"/>
     <wire from="(200,300)" to="(240,300)"/>
     <wire from="(240,300)" to="(320,300)"/>
     <wire from="(200,230)" to="(200,300)"/>
-    <wire from="(310,250)" to="(310,280)"/>
     <comp lib="1" loc="(360,290)" name="NOR Gate">
       <a name="size" val="30"/>
       <a name="inputs" val="2"/>
@@ -1614,7 +1615,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
   </circuit>
   <circuit name="8 Bit Register">
     <a name="circuit" val="8 Bit Register"/>
-    <a name="clabel" val=""/>
+    <a name="clabel" val="Register"/>
     <a name="clabelup" val="east"/>
     <a name="clabelfont" val="SansSerif plain 12"/>
     <wire from="(250,340)" to="(410,340)"/>
@@ -2219,6 +2220,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     </comp>
     <comp loc="(680,560)" name="4 Bit Or">
       <a name="facing" val="south"/>
+      <a name="labelloc" val="south"/>
     </comp>
     <comp lib="1" loc="(310,540)" name="Buffer">
       <a name="facing" val="north"/>
@@ -2691,7 +2693,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
   </circuit>
   <circuit name="8 Bit Control">
     <a name="circuit" val="8 Bit Control"/>
-    <a name="clabel" val=""/>
+    <a name="clabel" val="Control"/>
     <a name="clabelup" val="east"/>
     <a name="clabelfont" val="SansSerif plain 12"/>
     <wire from="(330,120)" to="(370,120)"/>
@@ -2846,8 +2848,8 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
   </circuit>
   <circuit name="4 Bit Or">
     <a name="circuit" val="4 Bit Or"/>
-    <a name="clabel" val=""/>
-    <a name="clabelup" val="east"/>
+    <a name="clabel" val="OR"/>
+    <a name="clabelup" val="west"/>
     <a name="clabelfont" val="SansSerif plain 12"/>
     <wire from="(210,200)" to="(250,200)"/>
     <wire from="(280,240)" to="(300,240)"/>
