@@ -10,34 +10,17 @@ This repository contains a WIP processor I'm designing in Logisim.
 
 In order to load this project, simply start up Logisim, and open `CPU.circ`.
 
-### Instructions
+### Memory Map
 
-```
+**Range:**
 
-POINTER = byte register
-*       = dereference
-ADDRESS = parameter
+`0x0000` - `0xFFFF`
 
-INSTRUCTIONS
+**Keyboard:**
 
-Jump to *POINTER
-Jump to VALUE
+`0xFAFE`
 
-Jump to VALUE if *POINTER!=0
+**Screen:**
 
-Add value to *POINTER
-Add *ADDRESS to *POINTER
+`0xFAFF` - `0xFFFF`
 
-Subtract value from *POINTER
-Subtract ADDRESS from *POINTER
-
-Set POINTER to VALUE
-Set POINTER to *ADDRESS
-
-Set *POINTER to VALUE
-Set *POINTER to *ADDRESS
-
-```
-
-
-:
